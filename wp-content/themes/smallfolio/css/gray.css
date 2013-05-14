@@ -1,0 +1,19 @@
+a {
+	color: #aaa;
+}
+.sf-menu li.current_page_item a, .sf-menu li a:hover, .sf-menu li.current-cat a {
+	color: #aaa;
+}
+blockquote {
+	color: #aaa;
+	border-left: 1px solid #aaa;
+}
+#left_sidebar li a {
+	color: #aaa;
+}
+#left_sidebar li li a {
+	color: #777;
+}
+#tagline {
+	background: url(gray/tagline.png) no-repeat;
+}

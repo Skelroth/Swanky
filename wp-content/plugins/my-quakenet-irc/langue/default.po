@@ -1,0 +1,133 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kw-irc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-28 00:07+0100\n"
+"PO-Revision-Date: 2012-05-28 00:07+0100\n"
+"Last-Translator: Laurent (KwarK) Bertrand <kwark@allwebtuts.net>\n"
+"Language-Team: Laurent Bertrand <kwark@allwebtuts.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_c\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2;plural=n>2\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: my_quake_net_irc.php:31
+msgid "Sorry, but you cannot access this page directly."
+msgstr ""
+
+#: my_quake_net_irc.php:46
+msgid "QuakeNet IRC"
+msgstr ""
+
+#: my_quake_net_irc.php:174
+msgid "Option saved"
+msgstr ""
+
+#: my_quake_net_irc.php:184
+#: my_quake_net_irc.php:223
+msgid "Save Changes"
+msgstr ""
+
+#: my_quake_net_irc.php:187
+msgid "Main channel IRC configuration"
+msgstr ""
+
+#: my_quake_net_irc.php:190
+msgid "channel Name"
+msgstr ""
+
+#: my_quake_net_irc.php:193
+msgid "Choose the channelName of your choice for your main IRC channel. Shortcode to diplay in a page [quake] is sufficient"
+msgstr ""
+
+#: my_quake_net_irc.php:199
+msgid "Shortcode example"
+msgstr ""
+
+#: my_quake_net_irc.php:202
+msgid "[quake]"
+msgstr ""
+
+#: my_quake_net_irc.php:205
+msgid "May take optional parameters width (expressed in pixel), height (expressed in pixel), status (may take parameters public or user only), message (your special message if status is defined on user only), button (may take parameters yes or no, button is the option to display a link show/hide for forum or other integration)"
+msgstr ""
+
+#: my_quake_net_irc.php:211
+msgid "Forum plugin example"
+msgstr ""
+
+#: my_quake_net_irc.php:214
+msgid "code"
+msgstr ""
+
+#: my_quake_net_irc.php:217
+msgid "Copy/past this part in your template file or php file to use one main irc on a forum plugin like simple press"
+msgstr ""
+
+#~ msgid "Infos irc"
+#~ msgstr "IRC Infos"
+
+#~ msgid ""
+#~ "<br />&nbsp;<br />Pour cr&eacute;er votre channel, rendez-vous sur <a "
+#~ "href=\"http://webchat.quakenet.org/\" target=\"_new\">http://webchat."
+#~ "quakenet.org/</a> et commencez dans le coin supérieur gauche.<br />&nbsp;"
+#~ "<br />Pour définir \"Infos irc\" ne copier/coller que la partie en gras "
+#~ "ex: iframe src=\"http://webchat.quakenet.org/?<b>channels=votre-"
+#~ "channel&uio=OT1</b>\"<br />&nbsp;<br />"
+#~ msgstr ""
+#~ "<br />&nbsp;<br />To create your channel, go to <a href=\"http://webchat."
+#~ "quakenet.org/\" target=\"_new\">http://webchat.quakenet.org/</a> and "
+#~ "start in the top-left on your screen.<br />&nbsp;<br />To define \"Infos "
+#~ "irc\", copy/past the part in bold  ex: iframe src=\"http://webchat."
+#~ "quakenet.org/?<b>channels=votre-channel&uio=OT1</b>\"<br />&nbsp;<br />"
+
+#~ msgid "Utiliser c&ocirc;t&eacute; forum ?"
+#~ msgstr "Use on a forum ?"
+
+#~ msgid ""
+#~ "Selectionnez pour utiliser My Quakenet irc sur un forum.<br />&nbsp;<br /"
+#~ ">Un bouton \"Quakenet\" permettra de cacher/voir la partie chat (voir "
+#~ "readme.txt file pour l'int&eacute;gration)"
+#~ msgstr ""
+#~ "Select to use My QuakeNet irc on a forum.<br />&nbsp;<br />A button "
+#~ "\"Quakenet\" will view/hide the chat (view readme.txt file fof forum "
+#~ "integration)"
+
+#~ msgid ""
+#~ "&nbsp;&nbsp;Si la largeur par d&eacute;faut automatique ne convient pas, "
+#~ "d&eacute;finissez une nouvelle valeur<br />&nbsp;<br />"
+#~ msgstr ""
+#~ "&nbsp;&nbsp;If the automatic default width is not appropriate, set a new "
+#~ "value<br />&nbsp;<br />"
+
+#~ msgid "Page (avec sidebar)"
+#~ msgstr "Page (with sidebar"
+
+#~ msgid ""
+#~ "Selectionnez pour utiliser My Quakenet irc dans une page avec sidebar."
+#~ "<br />&nbsp;<br />Copier/coller <b>[quakenet]</b> dans la page puis "
+#~ "cliquez \"publier\""
+#~ msgstr ""
+#~ "Select My Quakenet irc to use a page with sidebar. <br />&nbsp;<br /> "
+#~ "Copy / paste <b> [QuakeNet] </ b> in the page and click \"publish \""
+
+#~ msgid "Pleine page (sans sidebar)"
+#~ msgstr "Full page (no sidebar)"
+
+#~ msgid ""
+#~ "Selectionnez pour utiliser My Quakenet irc dans une page au format pleine "
+#~ "page.<br />&nbsp;<br />Copier/coller <b>[quakenet]</b> dans la page, "
+#~ "s&eacute;lectionnez one colum no sidebar puis cliquez \"publier\""
+#~ msgstr ""
+#~ "Select My Quakenet irc to use a page wih full page format. <br />&nbsp;"
+#~ "<br /> Copy / paste <b> [QuakeNet] </ b> on the page, select one colum no "
+#~ "sidebar and click \"published \""
+
+#~ msgid "Mettre &agrave; jour"
+#~ msgstr "Update"

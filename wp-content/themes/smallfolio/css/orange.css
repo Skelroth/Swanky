@@ -1,0 +1,19 @@
+a {
+	color: #e47826;
+}
+.sf-menu li.current_page_item a, .sf-menu li a:hover, .sf-menu li.current-cat a {
+	color: #e47826;
+}
+blockquote {
+	color: #e47826;
+	border-left: 1px solid #e47826;
+}
+#left_sidebar li a {
+	color: #e47826;
+}
+#left_sidebar li li a {
+	color: #945220;
+}
+#tagline {
+	background: url(orange/tagline.png) no-repeat;
+}

@@ -1,0 +1,33 @@
+.wpwhosonline-list {
+	list-style: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.wpwhosonline-row {
+	float: none;
+	width: auto;
+	height: 63px;
+	clear: both;
+}
+
+.wpwhosonline-row > img {
+	float: left !important;
+	margin-right: 1px;
+}
+
+.wpwhosonline-active > span {
+	font-weight: bold;
+	color: green;
+}
+
+.wpwhosonline-recent > span {
+}
+
+.wpwhosonline-ancient > span {
+	font-style: italic;
+	color: red;
+}
+
+/* kubrick style follows */
+#sidebar ul li.widget_wpwhosonline ul li:before { content: none; }

@@ -1,0 +1,4 @@
+.zoom {width:100%; overflow:hidden;}
+.zoom a {position:relative; float:left; margin:5px;}
+.zoom a span { background-image:url(ic_zoom.png); background-repeat:no-repeat; width:452px; height:177px; display:none;
+                  position:absolute; left:0; top:0;}

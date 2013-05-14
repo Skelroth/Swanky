@@ -1,0 +1,146 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE>TableLess Ajax Contact Form (Demo)</TITLE>
+  <META NAME="Keywords" CONTENT="form, divs">
+  <META NAME="Description" CONTENT="A CSS Tableless Ajax Contact Form">
+
+<!-- JQuery -->
+<script type="text/javascript" src="jquery-1.2.6.min.js"></script>
+
+ <script type="text/javascript">                                         
+<!--  
+// When DOM is ready
+$(document).ready(function(){
+
+// ------- Submit First Form -------
+
+$("#contact").submit(function(){
+
+var str = $(this).serialize();
+
+   $.ajax({
+   type: "POST",
+   url: "contact.php",
+   data: str,
+   success: function(msg){
+    
+$("#note").ajaxComplete(function(event, request, settings){
+
+if(msg == 'OK') // Message Sent? Show the 'Thank You' message and hide the form
+{
+result = '<div class="notification_ok">Your message has been sent. Thank you!</div>';
+$("#fields").hide();
+}
+else
+{
+result = msg;
+}
+
+$(this).html(result);
+
+});
+
+}
+
+ });
+
+return false;
+
+});
+
+// ------- Submit Second Form -------
+
+$("#feedback").submit(function() {
+
+var str = $(this).serialize();
+
+   $.ajax({
+   type: "POST",
+   url: "feedback.php",
+   data: str,
+   success: function(msg){
+    
+$("#note-two").ajaxComplete(function(event, request, settings){
+
+if(msg == 'OK') // Message Sent? Show the 'Thank You' message and hide the form
+{
+result = '<div class="notification_ok">Your message has been sent. Thank you!</div>';
+$("#fields-two").hide();
+}
+else
+{
+result = msg;
+}
+
+$(this).html(result);
+
+});
+
+}
+
+ });
+
+return false;
+
+});
+
+});
+-->
+ </script>  
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+</HEAD>
+
+ <BODY>
+ 
+ <center>
+
+<center><h3>A Tableless Contact Form (JQuery & AJAX)</h3></center>
+
+<div align="left" style="width: 500px;">
+
+
+<fieldset class="info_fieldset"><legend>Contact</legend>
+
+<div id="note"></div>
+<div id="fields">
+
+<form id="contact" name="form" action="javascript:alert('success!');">
+<label>Name</label><INPUT class="textbox" type="text" name="name" value=""><br />
+
+<label>E-Mail</label><INPUT class="textbox" type="text" name="email" value=""><br />
+
+<label>Subject</label><INPUT class="textbox" type="text" name="subject" value=""><br />
+
+<label>Comments</label><TEXTAREA class="textbox" NAME="message" ROWS="5" COLS="25"></TEXTAREA><br />
+
+<label>&nbsp;</label><INPUT id="submit" class="button" type="submit" name="submit" value="Send Message"><div id="loading"></div><span id="dots">.</span>
+</form>
+</div>
+
+</fieldset>
+<br />
+<fieldset class="info_fieldset"><legend>What do you think about this website?</legend>
+
+<div id="note-two"></div>
+<div id="fields-two">
+
+<form id="feedback" action="javascript:alert('success!');">
+<label>Name</label><INPUT class="textbox" type="text" name="name" value=""><br />
+
+<label>Comment</label><TEXTAREA class="textbox" NAME="message" ROWS="5" COLS="25"></TEXTAREA><br />
+
+<label>&nbsp;</label><INPUT id="submit-two" class="button" type="submit" name="submit" value="Send Message"><div id="loading-two"></div><span id="dots">.</span>
+</form>
+</div>
+
+</fieldset>
+
+</div>
+
+ </center>
+ 
+ </BODY>
+</HTML>

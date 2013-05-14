@@ -1,0 +1,20 @@
+/* @override http://localhost:8888/smallfolio/wp-content/themes/smallfolio/js/sliders/coin-slider/coin-slider-styles.css */
+
+/*
+	Coin Slider jQuery plugin CSS styles
+	http://workshop.rs/projects/coin-slider
+*/
+
+
+.coin-slider { overflow: hidden; zoom: 1; position: relative; }
+.coin-slider a{ text-decoration: none; outline: none; border: none}
+
+.cs-buttons { font-size: 0px; padding: 10px; float: left; }
+.cs-buttons a { margin-left: 8px; float: left; color: #B8C4CF; text-indent: -1000px;
+background-image: url(points.png); width: 12px; height: 12px; }
+.cs-active {background-position: right; color: #FFFFFF; }
+
+.cs-title { width: 545px; padding: 10px;  color: #FFFFFF; }
+
+.cs-prev, 
+.cs-next { background-color: #000000; color: #FFFFFF; padding: 0px 10px; display: none}
